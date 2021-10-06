@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "platform": "PT",
+  "client": {
+    "outbound_filters": [
+        {
+            "path": "my_filter.RandomExclude",
+            "args": {}
+        }
+    ],
+    "inbound_filters": []
+  },
+  "client_trainer": {
+    "path": "trainer.SimpleTrainer",
+    "args": {}
+  },
+  "handlers": []
+}
